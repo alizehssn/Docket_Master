@@ -1,3 +1,21 @@
 <li>
     <p>{{def_attorneyFName}} {{def_attorneyLName}} / Bar Roll No.: {{barNumber}}</p>
+
+    <form>
+        <div class="list-group-item">
+            <b>DEFENDANT ATTORNEY FIRST NAME:</b> <input id="dAttyFName" placeholder="{{FName}}"></input>
+        </div>
+        <div class="list-group-item">
+            <b>DEFENDANT LAST NAME:</b> <input id="dAttyLName" placeholder="{{LName}}"></input>
+        </div>
+        <div class="list-group-item">
+            <b>BAR ROLL NUMBER:</b> <input id="dAttyBarNo" placeholder="{{barNumber}}"></input>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="update-dAtty" data-dismiss="modal"
+                data-id="{{id}}">Update
+                Defendant Attorney</button>
+        </div>
+    </form>
+
 </li>
