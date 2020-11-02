@@ -13,7 +13,7 @@ $(document).ready(function () {
       barNumber: pAttyBarNo,
     };
 
-    $.ajax("/api/plaintiff_attorneys"+id, {
+    $.ajax("/api/plaintiff_attorneys/"+id, {
       type: "PUT",
       data: updatedPAtty,
     }).then(() => {

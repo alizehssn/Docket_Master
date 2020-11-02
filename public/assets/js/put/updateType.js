@@ -9,7 +9,7 @@ $(document).ready(function () {
       Field: type,
     };
 
-    $.ajax("/api/types"+id, {
+    $.ajax("/api/types/"+id, {
       type: "PUT",
       data: updatedType,
     }).then(() => {

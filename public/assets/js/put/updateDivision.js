@@ -15,7 +15,7 @@ $(document).ready(function () {
       roomNumber,
     };
 
-    $.ajax("/api/divisions" + id, {
+    $.ajax("/api/divisions/" + id, {
       type: "PUT",
       data: updateDivision,
     }).then(() => {

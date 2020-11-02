@@ -13,7 +13,7 @@ $(document).ready(function () {
       barNumber: dAttyBarNo,
     };
 
-    $.ajax("/api/defense_attorneys" + id, {
+    $.ajax("/api/defense_attorneys/" + id, {
       type: "PUT",
       data: updatedDAtty,
     }).then(() => {
