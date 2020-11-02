@@ -1,3 +1,17 @@
 <li>
     <p>{{FName}} {{LName}}</p>
+
+    <form>
+        <div class="list-group-item">
+            <b>DEFENDANT FIRST NAME:</b> <input id="defendantFName" placeholder="{{FName}}"></input>
+            </dv>
+            <div class="list-group-item">
+                <b>DEFENDANT LAST NAME:</b> <input id="defendantLName" placeholder="{{LName}}"></input>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="update-defendant" data-dismiss="modal"
+                    data-id="{{id}}">Update
+                    Defendant</button>
+            </div>
+    </form>
 </li>
