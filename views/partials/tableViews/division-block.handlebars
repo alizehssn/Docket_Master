@@ -1,3 +1,22 @@
 <li>
     <p> Div: {{division}}; Hon. {{judgeFName}} {{judgeLName}} - Room Number {{roomNumber}}</p>
+
+    <form>
+        <div class="list-group-item">
+            <b>NEW DIVISION:</b> <input id="division" placeholder="{{division}}"></input>
+        </div>
+        <div class="list-group-item">
+            <b>JUDGE FIRST NAME:</b> <input id="judgeFName" placeholder="{{judgeFName}}"></input>
+        </div>
+        <div class="list-group-item">
+            <b>JUDGE LAST NAME:</b> <input id="judgeLName" placeholder="{{judgeLName}}"></input>
+        </div>
+        <div class="list-group-item">
+            <b>ROOM NUMBER:</b> <input id="roomNumber" placeholder="{{roomNumber}}"></input>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="update-division" data-id="{{id}}">Update
+                Division</button>
+        </div>
+    </form>
 </li>
